@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Sito Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Intestazione -->
+    <header>
+        <h1>Benvenuto nel mio sito web</h1>
+    </header>
+
+    <!-- Navigazione -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Chi Siamo</a>
+        <a href="#">Servizi</a>
+        <a href="#">Contatti</a>
+    </nav>
+
+    <!-- Contenuti principali -->
+    <div class="content">
+        <h2>Questo è un esempio di sito web in HTML e CSS</h2>
+        <p>Questa è una semplice pagina web con una navigazione di base, un'intestazione, e un footer. Puoi personalizzare il contenuto come preferisci!</p>
+        <p>Modifica il codice per aggiungere nuovi contenuti, immagini, e altro.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Il Mio Sito Web. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
